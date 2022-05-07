@@ -27,15 +27,13 @@ git push -u origin main
 vercel --prod --confirm
 ```
 
-Svelte Logo
-
 Data has always been easier to perceive visually. Data visualization allows us to see tendencies over periods of time, allows us to compare different datasets, and makes it easier to see the totals, highlights, lows, and so on.
 
 One of the most common ways to visualize data in software is through analytics panels. We see them in most backend systems to display the visitor engagement data, user activity metrics, server stats, and other metrics.
 
 In this article, we will build an analytics dashboard in Svelte. We will focus on how to create the components, separate the data from the code, and implement the logic.
 
-For reference, here is the source code for the final project.
+For reference, here is the source code for the final project. https://codesandbox.io/s/svelte-analytics-yx0nw
 
 ## Creating a wireframe in Svelte
 
@@ -45,7 +43,7 @@ The line chart will display the visitor stats across six months. The bar charts 
 
 The layout of the analytics dashboard is shown in the wireframe below:
 
-Analytics Dashboard Wireframe
+![Analytics Dashboard Wireframe](https://github.com/coding-to-music/svelte-analytics-dashboard/blob/main/images/analytics-dashboard-framework.png?raw=true)
 
 ## Setting up the project
 
@@ -55,7 +53,7 @@ After, change your working directory to the newly created folder by running cd s
 
 Now run npm run dev in your terminal and navigate to http://localhost:8080 in your browser. You should be presented with a Svelte project preview that looks like this:
 
-## Svelte Tutorial
+![Svelte Tutorial](https://github.com/coding-to-music/svelte-analytics-dashboard/blob/main/images/svelte-tutorial.png?raw=true)
 
 We will also install the external npm library Chart.js, which will help us create modern-looking and interactive charts. Run npm install chart.js and wait while the terminal finishes installing the package.
 
@@ -295,7 +293,7 @@ Finally, we created a CSS media rule for both grid wrappers. If the screen width
 
 The last thing left to do is test the app. Check if the development server is still running. If it is not, run npm run dev again and visit the http://localhost:8080 in your browser. You should now be presented with the final dashboard, which looks like this:
 
-Final Dashboard
+![Final Dashboard](https://github.com/coding-to-music/svelte-analytics-dashboard/blob/main/images/final-dashboard.png?raw=true)
 
 ## Conclusion
 
