@@ -40,7 +40,7 @@
 	 }
    
 	 :global(body) {
-	   background-color: rgb(255, 137, 116);
+	   background-color: rgb(142, 116, 255);
 	   font-family: "Montserrat", sans-serif;
 	 }
    
@@ -58,7 +58,7 @@
    
 	 section {
 	   min-width: 100%;
-	   background-color: white;
+	   background-color: rgb(247, 70, 70);
 	   border-radius: 10px;
 	 }
    
